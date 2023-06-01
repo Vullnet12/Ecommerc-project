@@ -1,7 +1,8 @@
 import "./Product.scss";
 import prod from "../../../assets/products/earbuds-prod-1.webp";
 const Product = () => {
-    return <div className="product-card">
+    return (
+         <div className="product-card">
         <div className="thumbnail">
             <img src={prod} alt="" />
         </div>
@@ -9,7 +10,9 @@ const Product = () => {
             <span className="name">Product name</span>
             <span className="price">&#8364;199</span>
         </div>
-        </div>;
+    </div>
+    
+  );
 };
 
 export default Product;
