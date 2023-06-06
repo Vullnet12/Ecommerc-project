@@ -24,6 +24,6 @@ function App() {
           </AppContext>
         </BrowserRouter>
     );
-}
+};
 
 export default App;
